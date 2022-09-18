@@ -64,6 +64,6 @@ def decorator_2(func):
         }
         print("{0} call {1} executed in {2:.4f}".format(func.__name__, counter, end_time - start_time))
         for key, value in details_store.items():
-            print(handle_indent('{:10} {}'.format(key+":", value)))
+            print(handle_indent('{:10} {}'.format(key.title()+":", value)))
 
     return wrapper

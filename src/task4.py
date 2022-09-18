@@ -29,7 +29,7 @@ def decorator_4(func):
         try:
             func(*args, **kwargs)
         except BaseException as error:
-            with open('error_log.txt', 'a') as file:
+            with open('assets/error_log.txt', 'a') as file:
                 with redirect_stdout(file):
                     print(handle_indent('{:10} {}'.format("Date:", datetime.now())))
                     print(handle_indent('{:10} {}'.format("Type:", type(error))))

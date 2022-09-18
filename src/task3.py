@@ -63,9 +63,9 @@ class Decorator3:
             'source': getsource(self.func),
             'output': output.getvalue()
         }
-        with open('decorator_3.txt', 'a') as file:
+        with open('assets/decorator_3.txt', 'a') as file:
             with redirect_stdout(file):
                 print("{0} call {1} executed in {2:.4f}".format(details_store['name'], self.count, self.time))
                 for key, value in details_store.items():
-                    print(handle_indent('{:10} {}'.format(key + ":", value)))
+                    print(handle_indent('{:10} {}'.format(key.title() + ":", value)))
                 print()

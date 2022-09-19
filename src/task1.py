@@ -29,9 +29,11 @@ def decorator_1(func):
         nonlocal counter
         counter += 1
         start_time = perf_counter()
+        result = None
         with redirect_stdout(StringIO()):
-            func(*args, **kwargs)
+            result = func(*args, **kwargs)
         end_time = perf_counter()
         print("{0} call {1} executed in {2:.4f}".format(func.__name__, counter, end_time - start_time))
+        return result
 
     return wrapper

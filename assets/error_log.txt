@@ -34,3 +34,385 @@ Trace:     Traceback (most recent call last):
                raise ZeroDivisionError("There is an error")
            ZeroDivisionError: There is an error
 
+Date:      2022-09-18 22:56:58.485914
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 33, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 95, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-18 22:56:58.486879
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 48, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 104, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-18 22:56:58.487881
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 47, in __call__
+               self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 113, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:30:36.234820
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 33, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 102, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:30:36.238573
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 48, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 111, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:30:36.241588
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 47, in __call__
+               self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 120, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:30:56.050012
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 33, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 102, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:30:56.052010
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 48, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 111, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:30:56.054235
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 47, in __call__
+               self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 120, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:38:44.176329
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 102, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:38:44.179050
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 111, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:38:44.180606
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 120, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:46:33.792868
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 101, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:46:33.794649
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 110, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:46:33.796170
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 119, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:47:14.437480
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 101, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:47:14.439479
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 110, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:47:14.441477
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 119, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:52:12.466153
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 102, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:52:12.467821
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 111, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:52:12.469234
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 120, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:53:42.806988
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 102, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:53:42.808973
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 111, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:53:42.810996
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 120, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:56:35.671957
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 104, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:56:35.673957
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 113, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:56:35.675958
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 122, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+
+Date:      2022-09-19 17:57:21.459793
+Type:      <class 'KeyboardInterrupt'>
+Message:   
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 93, in fun4
+               result = list(filter(lambda elem: elem is complex, y))
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 93, in fun4
+               result = list(filter(lambda elem: elem is complex, y))
+             File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 1589, in _pydevd_bundle.pydevd_cython_win32_310_64.ThreadTracer.__call__
+             File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 929, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+             File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 920, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.trace_dispatch
+             File "_pydevd_bundle\pydevd_cython_win32_310_64.pyx", line 317, in _pydevd_bundle.pydevd_cython_win32_310_64.PyDBFrame.do_wait_suspend
+             File "C:\Program Files\JetBrains\PyCharm 2022.2.1\plugins\python\helpers\pydev\pydevd.py", line 1160, in do_wait_suspend
+               self._do_wait_suspend(thread, frame, event, arg, suspend_type, from_this_thread)
+             File "C:\Program Files\JetBrains\PyCharm 2022.2.1\plugins\python\helpers\pydev\pydevd.py", line 1175, in _do_wait_suspend
+               time.sleep(0.01)
+           KeyboardInterrupt
+
+Date:      2022-09-19 17:57:21.466305
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 104, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-19 17:57:21.467500
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 113, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-19 17:57:21.468900
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 122, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+

@@ -35,29 +35,35 @@ def funh(bar1, bar2=""):
 
 
 @Decorator3
-def fun1(n, m):
+def fun1(n):
     """
-    Generic function for creating a list of numbers
-    :param n: the number of items
-    :param m: the power to raise the index
+    function for creating a pascal's triangle
+    :param n: the number of rows
     :return: None
     """
-    res = [i ** m for i in range(n)]
-    print(res)
+    lists = [[1]]
+    for j in range(n):
+        temp = [0]+lists[j]+[0]
+        lists.append([value + temp[count+1] for count, value in enumerate(temp) if count < j+2])
+    output = []
+    for row in lists:
+        output.append(' '.join([str(i) for i in row]))
+    max_size = len(output[-1])
+    for row in output:
+        print(row.center(max_size))
 
 
 @Decorator3
-def fun2(a, h, k):
+def fun2(a, b, c):
     """
-    Generating a parabola
-    :param a: positive or negative curvature
-    :param h: horizontal offset
-    :param k: vertical offset
+    Quadratic equation solver ax**2 + bx+c =0
+    :param a:
+    :param b:
+    :param c:
     :return: None
     """
-    x = range(-10, 10)
-    y = [a * (i + h) ** 2 + k for i in x]
-    print(list(zip(x, y)))
+    rhs = ((b**2 - 4*a*c)**0.5)/(2*a)
+    print(-b + rhs, -b-rhs)
 
 
 @Decorator3
@@ -71,7 +77,8 @@ def fun3(a, b):
     x = range(-10, 10)
     y = [((i ** 2 / a ** 2 - 1) * b ** 2) ** 0.5 for i in x]
     print(list(zip(x, y)))
-
+    result = '\n'.join(list(map(lambda val: str(val)+" is a number", y)))
+    print(result)
 
 @Decorator3
 def fun4(a, b):
@@ -83,6 +90,8 @@ def fun4(a, b):
     """
     x = range(-10, 10)
     y = [((1 - i ** 2 / a ** 2) * b ** 2) ** 0.5 for i in x]
+    result = list(filter(lambda elem: elem is complex, y))
+    print('Number of non complex is ', len(y) - len(result))
     print(list(zip(x, y)))
 
 
@@ -127,8 +136,8 @@ if __name__ == "__main__":
 
     print('\n'+'-'*20+" Executing Task 3 "+'-'*20)
     # Task 3
-    fun1(10, 100)
-    fun2(10, 6, 5)
+    fun1(10)
+    fun2(1, 0, 1)
     fun3(10, 5)
     fun4(10, 5)
     counter_store = {

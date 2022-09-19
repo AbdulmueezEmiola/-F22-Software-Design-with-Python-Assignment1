@@ -42,9 +42,10 @@ class Decorator3:
         required by the decorated function
         :return: None
         """
+        result = None
         start_time = perf_counter()
         with redirect_stdout(StringIO()) as output:
-            self.func(*args, **kwargs)
+            result = self.func(*args, **kwargs)
         end_time = perf_counter()
         self.time = end_time - start_time
         self.count += 1
@@ -69,3 +70,4 @@ class Decorator3:
                 for key, value in details_store.items():
                     print(handle_indent('{:10} {}'.format(key.title() + ":", value)))
                 print()
+        return result

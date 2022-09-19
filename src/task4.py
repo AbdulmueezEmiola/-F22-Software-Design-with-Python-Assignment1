@@ -27,7 +27,8 @@ def decorator_4(func):
         :return: None
         """
         try:
-            func(*args, **kwargs)
+            result = func(*args, **kwargs)
+            return result
         except BaseException as error:
             with open('assets/error_log.txt', 'a') as file:
                 with redirect_stdout(file):

@@ -15,7 +15,7 @@ class Decorator3:
 
     Attributes:
         count (int): The number of times the function has been executed
-        time (int): The time taken by the last execution of the function
+
     """
     time = {}
 
@@ -71,4 +71,9 @@ class Decorator3:
 
     @staticmethod
     def get_rank():
+        """
+        Sorts all the decorated functions based
+        on their time of execution
+        :return: the sorted dictionary
+        """
         return sorted(Decorator3.time.items(), key=lambda a: a[1])

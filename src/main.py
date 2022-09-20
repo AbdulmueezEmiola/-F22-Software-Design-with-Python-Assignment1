@@ -142,7 +142,7 @@ if __name__ == "__main__":
     fun4(10, 5)
     print("PROGRAM | RANK | TIME ELAPSED")
     for index, item in enumerate(Decorator3.get_rank()):
-        print('{:<8.8} {:^6} {:>12}s'.format(item[0], index, item[1]))
+        print('{:<8.8} {:^6} {:>12}s'.format(item[0], index+1, item[1]))
 
     print('\n'+'-'*20+" Executing Task 4 "+'-'*20)
     fun5()

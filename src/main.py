@@ -140,14 +140,8 @@ if __name__ == "__main__":
     fun2(1, 0, 1)
     fun3(10, 5)
     fun4(10, 5)
-    counter_store = {
-        fun1.name: fun1.time,
-        fun2.name: fun2.time,
-        fun3.name: fun3.time,
-        fun4.name: fun4.time
-    }
     print("PROGRAM | RANK | TIME ELAPSED")
-    for index, item in enumerate(sorted(counter_store.items(), key=lambda a: a[1])):
+    for index, item in enumerate(Decorator3.get_rank()):
         print('{:<8.8} {:^6} {:>12}s'.format(item[0], index, item[1]))
 
     print('\n'+'-'*20+" Executing Task 4 "+'-'*20)

@@ -17,11 +17,11 @@ class Decorator3:
         count (int): The number of times the function has been executed
         time (int): The time taken by the last execution of the function
     """
+    time = {}
+
     def __init__(self, func):
         self.func = func
         self.count = 0
-        self.time = 0
-        self.name = func.__name__
 
     @decorator_4
     def __call__(self, *args, **kwargs):
@@ -47,10 +47,12 @@ class Decorator3:
         with redirect_stdout(StringIO()) as output:
             result = self.func(*args, **kwargs)
         end_time = perf_counter()
-        self.time = end_time - start_time
+
+        Decorator3.time[self.func.__name__] = end_time - start_time
         self.count += 1
+
         details_store = {
-            'name': self.name,
+            'name': self.func.__name__,
             'type': type(self.func),
             'sign': signature(self.func),
             'args': 'positional {} \nkey=worded {}'.format(args, kwargs),
@@ -58,10 +60,15 @@ class Decorator3:
             'source': getsource(self.func),
             'output': output.getvalue()
         }
+
         with open('assets/decorator_3.txt', 'a') as file:
             with redirect_stdout(file):
-                print("{0} call {1} executed in {2:.4f}".format(details_store['name'], self.count, self.time))
+                print("{0} call {1} executed in {2:.4f}".format(details_store['name'], self.count, end_time - start_time))
                 for key, value in details_store.items():
                     print(handle_indent('{:10} {}'.format(key.title() + ":", value)))
                 print()
         return result
+
+    @staticmethod
+    def get_rank():
+        return sorted(Decorator3.time.items(), key=lambda a: a[1])

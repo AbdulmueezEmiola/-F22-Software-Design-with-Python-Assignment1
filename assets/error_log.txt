@@ -416,3 +416,39 @@ Trace:     Traceback (most recent call last):
                raise ZeroDivisionError("There is an error")
            ZeroDivisionError: There is an error
 
+Date:      2022-09-20 09:38:32.472776
+Type:      <class 'ValueError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task1.py", line 34, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 104, in fun5
+               raise ValueError("There is an error")
+           ValueError: There is an error
+
+Date:      2022-09-20 09:38:32.475792
+Type:      <class 'ArithmeticError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task2.py", line 49, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 113, in fun6
+               raise ArithmeticError("There is an error")
+           ArithmeticError: There is an error
+
+Date:      2022-09-20 09:38:32.477949
+Type:      <class 'ZeroDivisionError'>
+Message:   There is an error
+Trace:     Traceback (most recent call last):
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task4.py", line 30, in wrapper
+               result = func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\task3.py", line 48, in __call__
+               result = self.func(*args, **kwargs)
+             File "C:\Users\emiol\PycharmProjects\pythonProject\src\main.py", line 122, in fun7
+               raise ZeroDivisionError("There is an error")
+           ZeroDivisionError: There is an error
+

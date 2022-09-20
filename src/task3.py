@@ -1,7 +1,7 @@
 from contextlib import redirect_stdout
 from io import StringIO
 from time import perf_counter
-from inspect import signature, getsource, Parameter
+from inspect import signature, getsource
 from lib import handle_indent
 from task4 import decorator_4
 
@@ -49,17 +49,11 @@ class Decorator3:
         end_time = perf_counter()
         self.time = end_time - start_time
         self.count += 1
-        func_signature = signature(self.func)
-        keyword = {
-            k: v.default for k, v in func_signature.parameters.items()
-            if v.default is not Parameter.empty
-        }
-        positional = (None,) * (len(func_signature.parameters.items()) - len(keyword))
         details_store = {
             'name': self.name,
             'type': type(self.func),
-            'sign': func_signature,
-            'args': 'positional {} \nkey=worded {}'.format(positional, keyword),
+            'sign': signature(self.func),
+            'args': 'positional {} \nkey=worded {}'.format(args, kwargs),
             'doc': self.func.__doc__.strip(),
             'source': getsource(self.func),
             'output': output.getvalue()

@@ -13,6 +13,7 @@ def decorator_1(func):
     """
     counter = 0
 
+    # smart of you to decorate the other decorator to handle the errors
     @decorator_4
     def wrapper(*args, **kwargs):
         """

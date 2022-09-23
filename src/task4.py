@@ -26,6 +26,7 @@ def decorator_4(func):
         required by the decorated function
         :return: None
         """
+        # why wasn't redirect std_out used here
         try:
             result = func(*args, **kwargs)
             return result

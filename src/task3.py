@@ -63,6 +63,7 @@ class Decorator3:
 
         with open('assets/decorator_3.txt', 'a') as file:
             with redirect_stdout(file):
+                # probably it is better to do the calculation outside and then print the variable to look neater
                 print("{0} call {1} executed in {2:.4f}".format(details_store['name'], self.count, end_time - start_time))
                 for key, value in details_store.items():
                     print(handle_indent('{:10} {}'.format(key.title() + ":", value)))

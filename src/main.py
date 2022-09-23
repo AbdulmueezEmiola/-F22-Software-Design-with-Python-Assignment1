@@ -122,6 +122,7 @@ def fun7():
     raise ZeroDivisionError("There is an error")
 
 
+# I think we should have had just 4 functions, and the decorators can be changed accordingly
 if __name__ == "__main__":
     print('-'*20+" Executing Task 1 "+'-'*20)
     # Task 1
